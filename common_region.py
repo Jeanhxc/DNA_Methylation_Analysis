@@ -1,12 +1,8 @@
 import pandas as pd
 import gzip 
 import os
-sample_files = ["sample_CGmap/Transformed_1_out.CGmap.gz",
-                "sample_CGmap/Transformed_2_out.CGmap.gz",
-                "sample_CGmap/Transformed_3_out.CGmap.gz",
-                "sample_CGmap/Untransformed_1_out.CGmap.gz",
-                "sample_CGmap/Untransformed_2_out.CGmap.gz",
-                "sample_CGmap/Untransformed_3_out.CGmap.gz",]
+sample_files = ["sample_CGmap/Transformed_1_out.CGmap.gz","sample_CGmap/Transformed_2_out.CGmap.gz","sample_CGmap/Transformed_3_out.CGmap.gz",
+                "sample_CGmap/Untransformed_1_out.CGmap.gz","sample_CGmap/Untransformed_2_out.CGmap.gz","sample_CGmap/Untransformed_3_out.CGmap.gz",]
 Contexts = ["CG", "CHG","CHH"]
 
 output_directory = "200bp_output"
